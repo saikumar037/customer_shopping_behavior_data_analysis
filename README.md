@@ -61,12 +61,14 @@ This project analyzes customer shopping behavior based on transactional data fro
 9. **Repeat Buyers & Subscriptions** – Check subscription rate among frequent buyers  
 10. **Revenue by Age Group** – Revenue contribution by each age segment  
 
+
 ## 📊 Power BI Dashboard Features
 - Customer Demographics: Age, Gender, Subscription Status  
 - Revenue Breakdown by Category and Customer Segment  
 - Payment and Shipping Preferences Analysis  
 - Discount Impact on Sales and Revenue  
 - Top Rated and Best-Selling Products  
+
 
 
 ## 💡 Key Insights
