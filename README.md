@@ -1,159 +1,85 @@
-🛍️ Customer Shopping Behavior Analysis
-📌 Business Problem Statement
-
-The retail company has observed changes in purchasing patterns across demographics, product categories, and sales channels (online vs. offline).
-Management wants to understand which factors—discounts, reviews, seasons, and payment preferences—drive consumer decisions and repeat purchases.
-
-📖 Project Overview
-
-This project analyzes customer shopping behavior using 3,900 retail transactions across various product categories.
-The goal is to uncover insights on:
-
-Spending patterns
-
-Customer segments
-
-Product preferences
-
-Subscription behavior
-
-These insights help the retail company make informed decisions that boost sales, improve customer satisfaction, and build long-term loyalty.
-
-🎯 Project Deliverables
-1. Data Preparation & Modeling (Python)
-
-Cleaned and transformed raw transactional data
-
-Handled missing values and standardized columns
-
-Engineered new features (age groups, behavior metrics)
-
-Loaded cleaned dataset into SQL for structured analysis
-
-2. Data Analysis (SQL)
-
-Extracted key business insights on revenue, loyalty, and discount patterns
-
-Segmented customers and identified high-value profiles
-
-3. Visualization & Insights (Power BI)
-
-Built an interactive dashboard
-
-Visualized revenue distribution, customer demographics, product performance
-
-Enabled trend exploration using dynamic filters and KPIs
-
-4. Report & Presentation
-
-Summarized major findings
-
-Provided actionable business recommendations
-
-🧰 Tools & Technologies
-
-Python: Pandas, NumPy, Matplotlib
-
-SQL: MS SQL Server
-
-Power BI: Interactive dashboards
-
-Excel: Supplementary data checks
-
-Git & GitHub: Version control and documentation
-
-📊 Dataset Summary
-
-Rows: 3,900 transactions
-
-Columns: 18 features
-
-Key Fields:
-
-Age, Gender, Location
-
-Subscription Status
-
-Item Purchased, Category
-
-Purchase Amount, Season
-
-Discount Applied
-
-Review Rating
-
-Shipping Type
-
-Missing Values:
-
-37 missing review ratings imputed using category-wise median
-
-🔍 Exploratory Data Analysis (Python)
-
-Removed duplicates and normalized column names
-
-Imputed missing values using statistical methods
-
-Created new features (age groups, purchase frequency days)
-
-Eliminated redundant attributes
-
-Loaded final cleaned dataset into SQL
-
-💾 Key Business Questions & SQL Analysis
-
-Revenue by Gender – Male vs. Female revenue contribution
-
-High-Spending Discount Users – Discount users with above-average spending
-
-Top-Rated Products – Top 5 items based on average review score
-
-Shipping Impact – Purchase value comparison by shipping type
-
-Subscribers vs. Non-Subscribers – Spend and revenue comparison
-
-Discount-Driven Products – Most purchased products with discounts
-
-Customer Segmentation – New, Returning, Loyal customers
-
-Top Products per Category – 3 highest-selling items per category
-
-Repeat Buyers & Subscriptions – Frequent buyers vs. subscription rate
-
-Revenue by Age Group – Spend trends across age brackets
-
-📊 Power BI Dashboard Features
-
-Customer demographics: Age, Gender, Subscription Status
-
-Revenue breakdown by category and customer segment
-
-Payment and shipping preference patterns
-
-Discount impact on revenue and sales volume
-
-Top-rated and best-selling products
-
-💡 Key Insights
-
-Female customers generate slightly higher revenue than males
-
-Subscribers spend more and have stronger retention
-
-Express shipping users show higher purchase values
-
-Discounts increase sales volume but reduce margins
-
-Loyal customers contribute the largest share of revenue
-
-🚀 Business Recommendations
-
-Boost Subscriptions: Offer exclusive perks and personalized deals
-
-Reward Loyalty: Implement a tiered loyalty program
-
-Optimize Discounts: Maintain promotional balance to preserve profitability
-
-Promote High-Rated Products: Highlight top-rated items in campaigns
-
-Target Profitable Segments: Focus marketing on high-value customers and express-shipping users
+# 🛍️ Customer Shopping Behavior Analysis
+
+## 📌 Business Problem Statement
+The retail company has observed changes in purchasing patterns across demographics, product categories, and sales channels (online vs. offline).  
+Management wants to understand which factors—including discounts, reviews, seasons, and payment preferences—drive consumer decisions and repeat purchases.
+
+## 📖 Project Overview
+This project analyzes customer shopping behavior based on transactional data from 3,900 purchases across various product categories. The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to enable the retail company to make informed decisions that boost sales, enhance customer satisfaction, and foster long-term loyalty.
+
+## 🎯 Project Deliverables
+
+**1. Data Preparation & Modeling (Python)**  
+- Cleaned and transformed raw transactional data for analysis.  
+- Handled missing values, standardized columns, and engineered new features.  
+- Loaded the processed dataset into SQL for structured querying.  
+
+**2. Data Analysis (SQL)**  
+- Executed SQL queries to extract key business insights on revenue, customer loyalty, and discount impact.  
+- Segmented customers and identified high-value purchase patterns.  
+
+**3. Visualization & Insights (Power BI)**  
+- Built an interactive dashboard showcasing revenue distribution, product performance, and customer demographics.  
+- Enabled decision-makers to explore trends through dynamic filters and KPIs.  
+
+**4. Report & Presentation**  
+- Summarized findings in a clear, data-backed report.  
+- Delivered actionable recommendations to enhance customer engagement and increase revenue.
+
+
+## 🧰 Tools & Technologies
+- Python (Pandas, NumPy, Matplotlib) for data preparation and EDA  
+- MySQL  for structured SQL analysis  
+- Power BI for interactive dashboards and KPI visualization  
+- Excel for supplementary data review and validation  
+- Git & GitHub for version control and project documentation  
+
+
+## 📊 Dataset Summary
+- **Rows:** 3,900 transactions  
+- **Columns:** 18 features including demographics, purchase details, and behavioral metrics  
+- **Key Columns:** Age, Gender, Location, Subscription Status, Item Purchased, Category, Purchase Amount, Season, Discount Applied, Review Rating, Shipping Type  
+- **Missing Values:** 37 missing review ratings imputed with category-wise median  
+
+
+## 🔍 Exploratory Data Analysis (Python)
+- Removed duplicates and standardized column names  
+- Imputed missing values and created new features such as age groups and purchase frequency days  
+- Verified and removed redundant columns 
+- Loaded cleaned dataset into SQL database for detailed querying  
+
+## 💾 Key Business Questions & SQL Analysis
+
+1. **Revenue by Gender** – Total revenue generated by male vs. female customers  
+2. **High-Spending Discount Users** – Customers using discounts but spending above average  
+3. **Top-Rated Products** – Top 5 products by average review score  
+4. **Shipping Impact** – Compare average purchase amounts by shipping type  
+5. **Subscribers vs. Non-Subscribers** – Revenue and spend comparison by subscription status  
+6. **Discount-Driven Products** – Top 5 products most often purchased with discounts  
+7. **Customer Segmentation** – Classify customers as *New*, *Returning*, or *Loyal*  
+8. **Top Products per Category** – 3 most purchased products in each category  
+9. **Repeat Buyers & Subscriptions** – Check subscription rate among frequent buyers  
+10. **Revenue by Age Group** – Revenue contribution by each age segment  
+
+## 📊 Power BI Dashboard Features
+- Customer Demographics: Age, Gender, Subscription Status  
+- Revenue Breakdown by Category and Customer Segment  
+- Payment and Shipping Preferences Analysis  
+- Discount Impact on Sales and Revenue  
+- Top Rated and Best-Selling Products  
+
+
+## 💡 Key Insights
+- Female customers generate slightly higher revenue than males  
+- Subscribers spend more and show stronger loyalty  
+- Express shipping correlates with higher purchase values  
+- Discounts increase sales volume but reduce profit margins  
+- Loyal customers contribute the majority of total revenue  
+
+
+## 🚀 Business Recommendations
+1. **Boost Subscriptions:** Offer exclusive benefits and targeted discounts to increase subscriber base  
+2. **Reward Loyalty:** Implement tiered loyalty programs that encourage repeat purchases  
+3. **Optimize Discounts:** Find a balance in promotional frequency to maintain profit margins  
+4. **Promote High-Rated Products:** Feature best-rated items prominently in marketing campaigns  
+5. **Target Profitable Segments:** Focus marketing and product strategies on high-value customer groups and express shipping users  
