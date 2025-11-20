@@ -29,7 +29,7 @@ This project analyzes customer shopping behavior based on transactional data fro
 
 ## 🧰 Tools & Technologies
 - Python (Pandas, NumPy, Matplotlib) for data preparation and EDA  
-- MySQL  for structured SQL analysis  
+- MS SQL Server for structured SQL analysis  
 - Power BI for interactive dashboards and KPI visualization  
 - Excel for supplementary data review and validation  
 - Git & GitHub for version control and project documentation  
